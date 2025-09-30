@@ -1,15 +1,20 @@
-# 💈 FORMEN BARBERSHOP DATES  
-#### ✅ Proyecto de ETL con MinIO, PostgreSQL, Docker, Python y Drive escritorio
+# 💈FORMEN BARBERSHOP💈  
+## ✅ Universidad Autonoma del Occidente. Mi primera Chamba: Gestión y almacenamiento de Datos!
+
+![LogoUni](https://www.uao.edu.co/wp-content/uploads/2021/03/reingreso.jpg)
+<div align="justify">
+Nuestro proyecto esta enfocado en implementar un flujo de ETL para consolidar y analizar datos transaccionales de la empresa🔥Formen Barber Shop!🔥Los datos provienen de archivos XLSX, que contienen los movimientos de ventas y servicios. El Objetivo del proyecto es transformar la información a métricas visuales para la toma de decisiones del negocio usando herramientas tegnologicas como: MinIO, PostgreSQL, Docker, Github, PhpMyAdmin, Drive, Power Bi y Visual Estudio Code (Python).👽
+</div>
 
 ---
 
 ## 🌍 CONTEXTO DE LA EMPRESA
 
-- **Ubicación:** Centro comercial Cañaveralejo  
-- **Ciudad:** Cali  
-- **Nombre Barbería:** Formen Barber Shop 💇‍♂️  
-- **Años de Antigüedad:** 2 años  
-- **Empleados actuales:** 2
+- 💇‍♂️**Nombre de la Barbería:** Formen Barber Shop
+- 🛍️**Ubicación:** Centro comercial Cañaveralejo
+- 🕺**Ciudad:** Cali
+- 💼**Años de Antigüedad:** 2
+- 🪖**Empleados actuales:** 2
 
 ---
 
@@ -33,11 +38,19 @@ ETL_FormenBarbershop/
 
 Antes de ejecutar el proyecto, asegúrate de tener instaladas las siguientes herramientas:
 
-- 🐳 **Docker y Docker Compose** – Para levantar contenedores de servicios como PostgreSQL y MinIO  
-- 📦 **MinIO** – Almacenamiento tipo S3 para el Data Lake  
-- 🛢️ **PostgreSQL** – Base de datos relacional para la carga final  
-- 💾 **Google Drive (modo escritorio)** – Para acceder a los archivos CSV sincronizados localmente  
-- 📊 **Power BI** – Para visualización de los datos cargados
+- 🐳 **Docker y Docker Compose** – Para levantar contenedores de servicios en PostgreSQL y MinIO.
+- 📦 **MinIO** – Almacenamiento tipo S3 para el Data Lake.
+- 🛢️ **PostgreSQL** – Base de datos relacional para la carga final.
+- 💾 **Google Drive (modo escritorio)** – Para acceder a los archivos xlsx sincronizados localmente.
+- 📊 **Power BI** – Para visualización de los datos cargados.
+- ⌨️ **Visual Estudio Code - Para usar como editor de código, recuerda instalar las librerías 🌈:
+1. numpy
+2. pandas
+3. matplotlib
+4. seaborn
+5. scikit-learn
+- 🤝 **PhpMyAdmin - Para administrar la base de datos.
+- 🤖 **Github - Como repositorio del proyecto.
 
 ---
 
@@ -112,24 +125,35 @@ df.to_sql("stg1_principal", engine, if_exists="replace", index=False)
 
 ---
 
-## 📈 Visualización
+## 📈 Resultados esperados
 
 - Power BI conectado a PostgreSQL  
-- Dashboards con métricas de ventas, servicios y colaboradores
+- Dashboards con métricas de:
 
 ---
 
-## 🛡️ Validaciones
+
+| OKR | KPI | Conclusión |
+|:----------|:--------:|---------:|
+| Incrementar la ocupación en días de baja demanda| Frecuencia de servicios por Barbero =(Número de servicios realizados)/(Número de barberos x Número de días de servicio)| Permite medir el nivel de ocupación que tiene cada barbero en promedio por cada día laborado. De esta manera, el propietario puede planificar cuantos turnos puede asignar máximos en un día y contemplar la capacidad operativa, exceso de personal o ineficiencia operativa|
+| Mejorar el desempeño individual de cada barbero   | Promedio de atención de servicios Fórmula:(Número de servicios realizados /Número de servicios programados) | Esta formula brinda un panorama del cumplimiento de los servicios realizados vs los planificados. Por lo tanto, si encontramos un valor por encima de 1, se puede concluir como negativo, por qué no se está cumpliendo con la meta esperada por alguna de estas razones: ausencias, citas canceladas o incapacidad operativa. De lo contrario, si encontramos un valor inferior a 1, se percibe que durante la operación, existen servicios que se están realizando sin contar con una programación o cita previa |
+
+- Meter una imagen del BI
+---
+
+## 🛡️ Control de Cambios
 
 - Verificación de columnas requeridas (`producto`, `cantidad`, `valor`, `ganancia`)  
 - Control de errores por campos faltantes  
 - Registro de errores en `logs/error.log`
+- Backup del dataset.
 
 ---
 
-## 👤 Autor
+## 👤 Autores
 
-**Brayan**  
+**El Brayan** 
+**CEO Asociación de Brayans de Colombia**
 Ingeniero Industrial | Especialización en Big Data  
 Apasionado por la estadística aplicada, visualización efectiva y automatización de procesos analíticos.
 
