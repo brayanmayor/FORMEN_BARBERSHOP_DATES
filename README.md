@@ -73,6 +73,14 @@ docker-compose up -d
 - Password: `password`
 
 ---
+## 🐳 Configurar el Google Drive Desktop
+
+En la raíz del pc, ejecutar el instalador del Drive:
+
+```bash
+https://support.google.com/a/users/answer/13022292?hl=es
+```
+---
 
 ## 🗄️ Proceso de Insert
 
