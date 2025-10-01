@@ -1,4 +1,4 @@
-# 💈FORMEN BARBERSHOP💈  
+# 💈FOR MEN BARBERSHOP💈  
 ## ✅ Universidad Autonoma del Occidente. Mi primera Chamba: Gestión y almacenamiento de Datos!
 
 ![LogoUni](https://www.uao.edu.co/wp-content/uploads/2021/03/reingreso.jpg)
@@ -10,7 +10,7 @@ Nuestro proyecto esta enfocado en implementar un flujo de ETL para consolidar y 
 
 ## 🌍 CONTEXTO DE LA EMPRESA
 
-- 💇‍♂️**Nombre de la Barbería:** Formen Barber Shop
+- 💇‍♂️**Nombre de la Barbería:** For men Barber Shop
 - 🛍️**Ubicación:** Centro comercial Cañaveralejo
 - 🕺**Ciudad:** Cali
 - 💼**Años de Antigüedad:** 2
