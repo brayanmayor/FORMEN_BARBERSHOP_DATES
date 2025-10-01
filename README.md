@@ -43,14 +43,14 @@ Antes de ejecutar el proyecto, asegúrate de tener instaladas las siguientes her
 - 🛢️ **PostgreSQL** – Base de datos relacional para la carga final.
 - 💾 **Google Drive (modo escritorio)** – Para acceder a los archivos xlsx sincronizados localmente.
 - 📊 **Power BI** – Para visualización de los datos cargados.
-- ⌨️ **Visual Estudio Code - Para usar como editor de código, recuerda instalar las librerías 🌈:
+- ⌨️ **Visual Estudio Code - Para usar como editor de código, recuerda instalar las librerías 🌈:**
 1. numpy
 2. pandas
 3. matplotlib
 4. seaborn
 5. scikit-learn
-- 🤝 **PhpMyAdmin - Para administrar la base de datos.
-- 🤖 **Github - Como repositorio del proyecto.
+- 🤝 **PhpMyAdmin - Para administrar la base de datos.**
+- 🤖 **Github - Como repositorio del proyecto.**
 
 ---
 
@@ -143,7 +143,7 @@ df.to_sql("stg1_principal", engine, if_exists="replace", index=False)
 
 ## 🛡️ Control de Cambios
 
-- Verificación de columnas requeridas (`producto`, `cantidad`, `valor`, `ganancia`)  
+- Verificación de columnas requeridas (`Producto`, `Servicio`, `Clientes`, `Fecha`, `Valor Total`,`Medios de Pago`,`Estado`)  
 - Control de errores por campos faltantes  
 - Registro de errores en `logs/error.log`
 - Backup del dataset.
